@@ -17,6 +17,7 @@ public class MainActivity extends BaseActivity {
         homeButton.setText("BIGGER");
 
         // almost push to github lk
+        // must push in master...
     }
 
     @Override
