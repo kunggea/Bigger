@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    
+    <color name="app_background_color">#ffffffff</color>
     <color name="devide_line">#CBCED2</color>
     <color name="blue">#499BF7</color>
     <color name="whites">#ffffff</color>

@@ -22,35 +22,39 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
-        public static final int backColor=0x7f05000c;
-        public static final int background=0x7f050019;
-        public static final int black=0x7f050006;
-        public static final int blue=0x7f050001;
-        public static final int common_title=0x7f050005;
-        public static final int deepcolor=0x7f050016;
-        public static final int defaultTextColor=0x7f05000e;
-        public static final int detail_bgColor=0x7f05000d;
-        public static final int devide_line=0x7f050000;
-        public static final int gold=0x7f050008;
-        public static final int gray=0x7f050013;
-        public static final int gray_font=0x7f050004;
-        public static final int grays=0x7f050003;
-        public static final int naming=0x7f050018;
-        public static final int orange=0x7f050015;
-        public static final int orange_yellow=0x7f05001a;
-        public static final int possible_result_points=0x7f050011;
-        public static final int pull_refresh_textview=0x7f050007;
-        public static final int red=0x7f05000b;
-        public static final int refresh_head_bg=0x7f05000a;
-        public static final int remote_connect_text=0x7f05001b;
-        public static final int remote_disconnect_text=0x7f05001c;
-        public static final int result_view=0x7f050012;
-        public static final int shadowcolor=0x7f050017;
-        public static final int transparent=0x7f050009;
-        public static final int viewfinder_frame=0x7f05000f;
-        public static final int viewfinder_mask=0x7f050010;
-        public static final int whites=0x7f050002;
-        public static final int yellow=0x7f050014;
+        public static final int app_background_color=0x7f050000;
+        public static final int backColor=0x7f05000d;
+        public static final int background=0x7f05001a;
+        public static final int black=0x7f050007;
+        public static final int blue=0x7f050002;
+        public static final int common_title=0x7f050006;
+        public static final int deepcolor=0x7f050017;
+        public static final int defaultTextColor=0x7f05000f;
+        public static final int detail_bgColor=0x7f05000e;
+        public static final int devide_line=0x7f050001;
+        public static final int gold=0x7f050009;
+        public static final int gray=0x7f050014;
+        public static final int gray_font=0x7f050005;
+        public static final int grays=0x7f050004;
+        public static final int naming=0x7f050019;
+        public static final int orange=0x7f050016;
+        public static final int orange_yellow=0x7f05001b;
+        public static final int possible_result_points=0x7f050012;
+        public static final int pull_refresh_textview=0x7f050008;
+        public static final int red=0x7f05000c;
+        public static final int refresh_head_bg=0x7f05000b;
+        public static final int remote_connect_text=0x7f05001c;
+        public static final int remote_disconnect_text=0x7f05001d;
+        public static final int result_view=0x7f050013;
+        public static final int shadowcolor=0x7f050018;
+        public static final int transparent=0x7f05000a;
+        public static final int viewfinder_frame=0x7f050010;
+        public static final int viewfinder_mask=0x7f050011;
+        public static final int whites=0x7f050003;
+        public static final int yellow=0x7f050015;
+    }
+    public static final class dimen {
+        public static final int app_title_bar_height=0x7f060000;
     }
     public static final class drawable {
         public static final int conversation_options_camera=0x7f020000;
@@ -65,15 +69,15 @@ public final class R {
         public static final int semi_black=0x7f020009;
     }
     public static final class id {
-        public static final int fragment_invested_pop_listview=0x7f080001;
-        public static final int homeButton=0x7f080000;
-        public static final int ll_group=0x7f080002;
-        public static final int pop_camera=0x7f080005;
-        public static final int pop_chat=0x7f080003;
-        public static final int pop_item_title=0x7f080007;
-        public static final int pop_item_title_img=0x7f080008;
-        public static final int pop_sangzhao=0x7f080004;
-        public static final int pop_scan=0x7f080006;
+        public static final int fragment_invested_pop_listview=0x7f090001;
+        public static final int homeButton=0x7f090000;
+        public static final int ll_group=0x7f090002;
+        public static final int pop_camera=0x7f090005;
+        public static final int pop_chat=0x7f090003;
+        public static final int pop_item_title=0x7f090007;
+        public static final int pop_item_title_img=0x7f090008;
+        public static final int pop_sangzhao=0x7f090004;
+        public static final int pop_scan=0x7f090006;
     }
     public static final class layout {
         public static final int activity_m=0x7f030000;
@@ -84,11 +88,11 @@ public final class R {
         public static final int pop_item=0x7f030005;
     }
     public static final class string {
-        public static final int app_name=0x7f060000;
-        public static final int pop_camera=0x7f060003;
-        public static final int pop_chat=0x7f060001;
-        public static final int pop_sangzhao=0x7f060002;
-        public static final int pop_scan=0x7f060004;
+        public static final int app_name=0x7f070000;
+        public static final int pop_camera=0x7f070003;
+        public static final int pop_chat=0x7f070001;
+        public static final int pop_sangzhao=0x7f070002;
+        public static final int pop_scan=0x7f070004;
     }
     public static final class style {
         /** 
@@ -112,11 +116,11 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
-        public static final int popwin_anim_style=0x7f070002;
+        public static final int AppTheme=0x7f080001;
+        public static final int popwin_anim_style=0x7f080002;
     }
 }
