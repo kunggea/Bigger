@@ -15,6 +15,8 @@ public class MainActivity extends BaseActivity {
         homeButton = (Button) findViewById(R.id.homeButton);
         homeButton.setTypeface(FontUtil.getTypeface(this, "HelveticaNeue"));
         homeButton.setText("BIGGER");
+
+        // almost push to github lk
     }
 
     @Override
