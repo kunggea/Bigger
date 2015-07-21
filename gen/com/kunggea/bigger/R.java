@@ -430,15 +430,16 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int bottom=0x7f0b0003;
         public static final int button_action_cancel=0x7f0b0009;
         public static final int button_action_send=0x7f0b000a;
-        public static final int dialog_cancel_button=0x7f0b0016;
-        public static final int dialog_content=0x7f0b0015;
-        public static final int dialog_ok_button=0x7f0b0017;
-        public static final int dialog_title=0x7f0b0014;
+        public static final int dialog_cancel_button=0x7f0b0017;
+        public static final int dialog_content=0x7f0b0016;
+        public static final int dialog_ok_button=0x7f0b0018;
+        public static final int dialog_title=0x7f0b0015;
         public static final int editText_content_text=0x7f0b000b;
         public static final int homeButton=0x7f0b0005;
         public static final int imageView_content_icon=0x7f0b000c;
-        public static final int image_view_reflesh_logo=0x7f0b0020;
-        public static final int layout_head_content_id=0x7f0b001c;
+        public static final int image_view_reflesh_logo=0x7f0b0021;
+        public static final int item_bigger_title=0x7f0b0014;
+        public static final int layout_head_content_id=0x7f0b001d;
         public static final int none=0x7f0b0000;
         public static final int textView_icon1=0x7f0b000d;
         public static final int textView_icon1_text=0x7f0b000e;
@@ -452,13 +453,13 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int triangle=0x7f0b0001;
         public static final int underline=0x7f0b0002;
         public static final int xListview=0x7f0b0007;
-        public static final int xlistview_footer_content=0x7f0b0018;
-        public static final int xlistview_footer_hint_textview=0x7f0b001a;
-        public static final int xlistview_footer_progressbar=0x7f0b0019;
-        public static final int xlistview_header_content=0x7f0b001b;
-        public static final int xlistview_header_hint_textview=0x7f0b001d;
-        public static final int xlistview_header_last_time_id=0x7f0b001e;
-        public static final int xlistview_header_progressbar=0x7f0b001f;
+        public static final int xlistview_footer_content=0x7f0b0019;
+        public static final int xlistview_footer_hint_textview=0x7f0b001b;
+        public static final int xlistview_footer_progressbar=0x7f0b001a;
+        public static final int xlistview_header_content=0x7f0b001c;
+        public static final int xlistview_header_hint_textview=0x7f0b001e;
+        public static final int xlistview_header_last_time_id=0x7f0b001f;
+        public static final int xlistview_header_progressbar=0x7f0b0020;
     }
     public static final class integer {
         public static final int default_circle_indicator_orientation=0x7f0a0000;

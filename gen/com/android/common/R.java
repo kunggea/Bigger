@@ -112,10 +112,10 @@ public final class R {
 		public static final int bottom = 0x7f0b0003;
 		public static final int button_action_cancel = 0x7f0b0009;
 		public static final int button_action_send = 0x7f0b000a;
-		public static final int dialog_cancel_button = 0x7f0b0016;
-		public static final int dialog_content = 0x7f0b0015;
-		public static final int dialog_ok_button = 0x7f0b0017;
-		public static final int dialog_title = 0x7f0b0014;
+		public static final int dialog_cancel_button = 0x7f0b0017;
+		public static final int dialog_content = 0x7f0b0016;
+		public static final int dialog_ok_button = 0x7f0b0018;
+		public static final int dialog_title = 0x7f0b0015;
 		public static final int editText_content_text = 0x7f0b000b;
 		public static final int imageView_content_icon = 0x7f0b000c;
 		public static final int none = 0x7f0b0000;
