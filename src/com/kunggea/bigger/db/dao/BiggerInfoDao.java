@@ -1,4 +1,4 @@
-package com.kunggea.bigger.dao;
+package com.kunggea.bigger.db.dao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,8 +8,8 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
+import com.kunggea.bigger.db.DBHepler;
 import com.kunggea.bigger.info.BiggerInfo;
-import com.kunggea.bigger.util.DateUtil;
 
 public class BiggerInfoDao {
 	private DBHepler dbHpler = null;
@@ -21,14 +21,14 @@ public class BiggerInfoDao {
 	public long add(BiggerInfo paramBiggerInfo) {
 		SQLiteDatabase localSQLiteDatabase = this.dbHpler.getWritableDatabase();
 		ContentValues localContentValues = new ContentValues();
-		localContentValues.put("title",paramBiggerInfo.title);
-//		localContentValues.put("flag",
-//				Integer.valueOf(paramBiggerInfo.getFlag()));
-//		localContentValues.put("infoid",
-//				Integer.valueOf(paramBiggerInfo.getInfoid()));
-//		localContentValues.put("type",
-//				Integer.valueOf(paramBiggerInfo.getType()));
-//		localContentValues.put("addtime", DateUtil.getNowDateLong());
+		localContentValues.put("title", paramBiggerInfo.title);
+		// localContentValues.put("flag",
+		// Integer.valueOf(paramBiggerInfo.getFlag()));
+		// localContentValues.put("infoid",
+		// Integer.valueOf(paramBiggerInfo.getInfoid()));
+		// localContentValues.put("type",
+		// Integer.valueOf(paramBiggerInfo.getType()));
+		// localContentValues.put("addtime", DateUtil.getNowDateLong());
 		return localSQLiteDatabase.insert("t_BiggerInfo", "flag",
 				localContentValues);
 	}

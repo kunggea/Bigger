@@ -1,4 +1,4 @@
-package com.kunggea.bigger.dao;
+package com.kunggea.bigger.db;
 
 import com.android.common.util.CMLog;
 
