@@ -15,4 +15,29 @@
         android:text="@string/app_name"
         android:textSize="40sp" />
 
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/app_button_add_margin_size"
+        android:layout_marginRight="@dimen/app_button_add_margin_size" >
+
+        <Button
+            android:id="@+id/addButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:text="@string/app_button_add"
+            android:textSize="@dimen/app_button_add_text_size" />
+    </FrameLayout>
+    <!-- 正文 -->
+
+    <com.kunggea.bigger.view.XListView
+        android:id="@+id/xListview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/homeButton" />
+
 </RelativeLayout>

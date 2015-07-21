@@ -2,5 +2,9 @@
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <dimen name="app_title_bar_height">50dp</dimen>
+    <dimen name="app_button_add_size">100dp</dimen>
+    <dimen name="app_button_add_text_size">80sp</dimen>
+    <dimen name="app_button_add_margin_size">30dp</dimen>
 
+    <dimen name="item_bigger_layout_height">40dp</dimen>
 </resources>

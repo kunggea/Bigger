@@ -2,6 +2,8 @@
 <resources>
     
     <color name="app_background_color">#ffffffff</color>
+    <color name="main_tab_refresh_layout_bg">#f2f2f1</color>
+    
     <color name="devide_line">#CBCED2</color>
     <color name="blue">#499BF7</color>
     <color name="whites">#ffffff</color>
