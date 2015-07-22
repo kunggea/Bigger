@@ -47,31 +47,31 @@ public final class R {
 		public static final int vpiUnderlinePageIndicatorStyle = 0x7f010005;
 	}
 	public static final class bool {
-		public static final int default_circle_indicator_centered = 0x7f090000;
-		public static final int default_circle_indicator_snap = 0x7f090001;
-		public static final int default_line_indicator_centered = 0x7f090002;
-		public static final int default_title_indicator_selected_bold = 0x7f090003;
-		public static final int default_underline_indicator_fades = 0x7f090004;
+		public static final int default_circle_indicator_centered = 0x7f0a0000;
+		public static final int default_circle_indicator_snap = 0x7f0a0001;
+		public static final int default_line_indicator_centered = 0x7f0a0002;
+		public static final int default_title_indicator_selected_bold = 0x7f0a0003;
+		public static final int default_underline_indicator_fades = 0x7f0a0004;
 	}
 	public static final class color {
-		public static final int default_circle_indicator_fill_color = 0x7f080008;
-		public static final int default_circle_indicator_page_color = 0x7f080009;
-		public static final int default_circle_indicator_stroke_color = 0x7f08000a;
-		public static final int default_line_indicator_selected_color = 0x7f08000b;
-		public static final int default_line_indicator_unselected_color = 0x7f08000c;
-		public static final int default_title_indicator_footer_color = 0x7f08000d;
-		public static final int default_title_indicator_selected_color = 0x7f08000e;
-		public static final int default_title_indicator_text_color = 0x7f08000f;
-		public static final int default_underline_indicator_selected_color = 0x7f080010;
-		public static final int vpi__background_holo_dark = 0x7f080000;
-		public static final int vpi__background_holo_light = 0x7f080001;
-		public static final int vpi__bright_foreground_disabled_holo_dark = 0x7f080004;
-		public static final int vpi__bright_foreground_disabled_holo_light = 0x7f080005;
-		public static final int vpi__bright_foreground_holo_dark = 0x7f080002;
-		public static final int vpi__bright_foreground_holo_light = 0x7f080003;
-		public static final int vpi__bright_foreground_inverse_holo_dark = 0x7f080006;
-		public static final int vpi__bright_foreground_inverse_holo_light = 0x7f080007;
-		public static final int xiaoma_theme_color = 0x7f080011;
+		public static final int default_circle_indicator_fill_color = 0x7f090008;
+		public static final int default_circle_indicator_page_color = 0x7f090009;
+		public static final int default_circle_indicator_stroke_color = 0x7f09000a;
+		public static final int default_line_indicator_selected_color = 0x7f09000b;
+		public static final int default_line_indicator_unselected_color = 0x7f09000c;
+		public static final int default_title_indicator_footer_color = 0x7f09000d;
+		public static final int default_title_indicator_selected_color = 0x7f09000e;
+		public static final int default_title_indicator_text_color = 0x7f09000f;
+		public static final int default_underline_indicator_selected_color = 0x7f090010;
+		public static final int vpi__background_holo_dark = 0x7f090000;
+		public static final int vpi__background_holo_light = 0x7f090001;
+		public static final int vpi__bright_foreground_disabled_holo_dark = 0x7f090004;
+		public static final int vpi__bright_foreground_disabled_holo_light = 0x7f090005;
+		public static final int vpi__bright_foreground_holo_dark = 0x7f090002;
+		public static final int vpi__bright_foreground_holo_light = 0x7f090003;
+		public static final int vpi__bright_foreground_inverse_holo_dark = 0x7f090006;
+		public static final int vpi__bright_foreground_inverse_holo_light = 0x7f090007;
+		public static final int xiaoma_theme_color = 0x7f090011;
 	}
 	public static final class dimen {
 		public static final int activity_horizontal_margin = 0x7f050000;
@@ -109,34 +109,34 @@ public final class R {
 		public static final int xiaoma_new_dialog_single_ok_button_pressed = 0x7f020019;
 	}
 	public static final class id {
-		public static final int bottom = 0x7f0b0003;
-		public static final int button_action_cancel = 0x7f0b0009;
-		public static final int button_action_send = 0x7f0b000a;
-		public static final int dialog_cancel_button = 0x7f0b0017;
-		public static final int dialog_content = 0x7f0b0016;
-		public static final int dialog_ok_button = 0x7f0b0018;
-		public static final int dialog_title = 0x7f0b0015;
-		public static final int editText_content_text = 0x7f0b000b;
-		public static final int imageView_content_icon = 0x7f0b000c;
-		public static final int none = 0x7f0b0000;
-		public static final int textView_icon1 = 0x7f0b000d;
-		public static final int textView_icon1_text = 0x7f0b000e;
-		public static final int textView_icon2 = 0x7f0b000f;
-		public static final int textView_icon2_text = 0x7f0b0010;
-		public static final int textView_icon3 = 0x7f0b0011;
-		public static final int textView_icon3_text = 0x7f0b0012;
-		public static final int textView_main_tab_title = 0x7f0b0008;
-		public static final int textView_share_button_cancel = 0x7f0b0013;
-		public static final int top = 0x7f0b0004;
-		public static final int triangle = 0x7f0b0001;
-		public static final int underline = 0x7f0b0002;
+		public static final int bottom = 0x7f080003;
+		public static final int button_action_cancel = 0x7f080009;
+		public static final int button_action_send = 0x7f08000a;
+		public static final int dialog_cancel_button = 0x7f080017;
+		public static final int dialog_content = 0x7f080016;
+		public static final int dialog_ok_button = 0x7f080018;
+		public static final int dialog_title = 0x7f080015;
+		public static final int editText_content_text = 0x7f08000b;
+		public static final int imageView_content_icon = 0x7f08000c;
+		public static final int none = 0x7f080000;
+		public static final int textView_icon1 = 0x7f08000d;
+		public static final int textView_icon1_text = 0x7f08000e;
+		public static final int textView_icon2 = 0x7f08000f;
+		public static final int textView_icon2_text = 0x7f080010;
+		public static final int textView_icon3 = 0x7f080011;
+		public static final int textView_icon3_text = 0x7f080012;
+		public static final int textView_main_tab_title = 0x7f080008;
+		public static final int textView_share_button_cancel = 0x7f080013;
+		public static final int top = 0x7f080004;
+		public static final int triangle = 0x7f080001;
+		public static final int underline = 0x7f080002;
 	}
 	public static final class integer {
-		public static final int default_circle_indicator_orientation = 0x7f0a0000;
-		public static final int default_title_indicator_footer_indicator_style = 0x7f0a0001;
-		public static final int default_title_indicator_line_position = 0x7f0a0002;
-		public static final int default_underline_indicator_fade_delay = 0x7f0a0003;
-		public static final int default_underline_indicator_fade_length = 0x7f0a0004;
+		public static final int default_circle_indicator_orientation = 0x7f0b0000;
+		public static final int default_title_indicator_footer_indicator_style = 0x7f0b0001;
+		public static final int default_title_indicator_line_position = 0x7f0b0002;
+		public static final int default_underline_indicator_fade_delay = 0x7f0b0003;
+		public static final int default_underline_indicator_fade_length = 0x7f0b0004;
 	}
 	public static final class layout {
 		public static final int activity_main = 0x7f030000;
